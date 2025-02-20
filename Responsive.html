@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS</title>
+    <link rel="stylesheet" href="style.css" />
+     <style>
+      .card {
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px;
+}
+
+img {
+  width: 100%;
+  border-radius: 25px;
+}
+
+h2 {
+  color: #d56f3e;
+}
+
+span {
+  color: #9d6f24;
+}
+
+h4 {
+  text-align: right;
+  color: #3c787e;
+}
+
+#pets {
+  display: flex;
+  justify-content: space-evenly;
+}
+@media(max-width:375px){
+    #pets{
+        flex-wrap:wrap;
+    }
+}
+
+     </style>
+  </head>
+  <body>
+    <h2><i>adoptme.com</i></h2>
+    <h1>Adopt <span>Good</span>Things</h1>
+    <br /><br />
+    <div id="pets">
+      <div class="card">
+        <img src="Nature.jfif" alt="Nature" />
+        <h3>Importance of Nature</h3>
+        <p>
+            Nature is an important and integral part of mankind. It is one of the
+            greatest blessings for human life; however, nowadays humans fail to 
+            recognize it as one. Nature has been an inspiration for numerous poets,
+            writers, artists and more of yesteryears. This remarkable creation 
+            inspired them to write poems and stories in the glory of it. 
+            They truly valued nature which reflects in their works even today. 
+            Essentially, nature is everything we are surrounded by like the water we drink,
+            the air we breathe, the sun we soak in, the birds we hear chirping, 
+            the moon we gaze at and more. Above all, it is rich and vibrant and 
+            consists of both living and non-living things. Therefore, people of the
+            modern age should also learn something from people of yesteryear and 
+            start valuing nature before it gets too late.
+        </p>
+      </div>
+      <div class="card">
+        <img src="pollution.jpg" alt="Pollution" />
+        <h3>Impact of Pollution</h3>
+        <p>
+            Pollution is the process by which harmful substances (called pollutants) are 
+            released into the natural environment. The list of pollutants includes volcanic 
+            ash, trash, chemicals released by industries, smoke, plastics, etc. With the
+            advancement of technology and with new inventions, the lives of people have been
+            made easier, but the irony is that these eventually end up polluting the atmosphere,
+            thereby becoming a major threat to all living things which are a part of planet Earth.
+            The major types of pollution include air pollution, water pollution and land pollution. 
+            Air pollution is the contamination of the atmosphere mainly due to smoke from vehicles, 
+            factories and forest fires. Water gets polluted when toxic substances like chemicals and
+            plastic waste are discharged into the water bodies, and the process by which accumulated 
+            solid and liquid waste contaminate the soil and groundwater are referred to as land pollution.
+        </p>
+      </div>
+    </div>
+    <h4>a gift of new life</h4>
+  </body>
+</html>
