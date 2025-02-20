@@ -1,2 +1,2 @@
 # Responsive-Demo
-This is  a responsive website
+This is  a  Demo responsive website
